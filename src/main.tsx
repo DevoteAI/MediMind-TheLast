@@ -1,21 +1,10 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
-import './lib/supabase';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
 
-// Initialize theme and language from localStorage
-const theme = localStorage.getItem('theme') || 'light';
-const language = localStorage.getItem('language') || 'en';
-
-if (theme === 'dark') {
-  document.documentElement.classList.add('dark');
-}
-
-document.documentElement.lang = language;
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
     <App />
-  </StrictMode>
-);
+  </React.StrictMode>,
+) 
