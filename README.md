@@ -1,6 +1,41 @@
 # MediMind
 
-An advanced AI medical assistant for enhanced clinical decision-making. 
+A comprehensive medical management system.
+
+## Build Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
+
+## Description
+
+MediMind is a modern web application designed to help healthcare professionals manage patient data, medical records, and clinical workflows efficiently.
+
+## Features
+
+- Patient Management
+- Medical Records
+- ABG Analysis
+- Documentation System
+- Real-time Updates
+
+## Technology Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Supabase
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Build for production: `npm run build`
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Important Note
 
